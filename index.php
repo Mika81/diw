@@ -1,12 +1,14 @@
 <?php
 
-require_once 'model/rss/Item.php';
-require_once 'model/rss/Reader.php';
+require_once 'src/rss/Item.php';
+require_once 'src/rss/Reader.php';
 
-$filename = "http://com.clubic.feedsportal.com/c/33464/f/581985/index.rss";
+$filename = "http://web.developpez.com/index/rss";
 
-$reader = new \model\rss\Reader($filename);
+$reader = new \src\rss\Reader($filename);
 
 $items = $reader->getItems();
 
 include_once 'views/home.php';
+
+//print "<pre>"; print_r($items); print"</pre>";

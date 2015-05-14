@@ -1,6 +1,6 @@
 <?php
 
-namespace model\rss;
+namespace src\rss;
 
 /**
  * Description of Reader
@@ -29,7 +29,7 @@ class Reader {
                 ->setDescription($xmlItem->description)
                 ->setLink($xmlItem->link)
                 ->setDate(new \Datetime($xmlItem->pubDate))
-//                ->setPicture($xmlItem->thumbnail['url'])
+                ->setPicture($xmlItem->thumbnail['url'])
                 ->setAuthor($xmlItem->author);
             array_push($items, $item);
         }

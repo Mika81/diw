@@ -1,6 +1,6 @@
 <?php
 
-namespace model\rss;
+namespace src\rss;
 
 /**
  * Description of Item
@@ -12,7 +12,7 @@ class Item {
     private $description;
     private $author;
     private $date;
-//    private $picture;
+    private $picture;
     private $link;
     
     /* |SETTERS| */
@@ -40,11 +40,11 @@ class Item {
         return $this;
     }
     
-//    public function setPicture($picture)
-//    {
-//        $this->picture = (string) $picture;
-//        return $this;
-//    }
+    public function setPicture($picture)
+    {
+        $this->picture = (string) $picture;
+        return $this;
+    }
     
     public function setLink($link)
     {
@@ -73,10 +73,10 @@ class Item {
         return $this->date;
     }
     
-//    public function getPicture()
-//    {
-//        return $this->picture;
-//    }
+    public function getPicture()
+    {
+        return $this->picture;
+    }
     
     public function getLink()
     {
