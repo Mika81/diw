@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <h1>Hello world !!!</h1>
-    </body>
-</html>
+<?php
+
+require_once 'model/rss/Item.php';
+require_once 'model/rss/Reader.php';
+
+$filename = "http://com.clubic.feedsportal.com/c/33464/f/581985/index.rss";
+
+$reader = new \model\rss\Reader($filename);
+
+$items = $reader->getItems();
+
+include_once 'views/home.php';
