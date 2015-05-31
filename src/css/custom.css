@@ -1,0 +1,67 @@
+/* WIDTH */
+.width_100_100{
+    width:100%;
+}
+
+.w_50_100{
+    width:50%;
+}
+
+.w_40_100{
+    width:40%;
+}
+
+/* HEIGHT */
+.height_400{
+    height:400px;
+}
+
+/* FLOAT */
+.f_l{
+    float:left;
+}
+
+/* MARGIN */
+.m_0{
+    margin:0;
+}
+
+.m_top_50{
+    margin-top:50px;
+}
+
+.m_bottom_100{
+    margin-bottom: 100px;
+}
+
+.m_l_10{
+    margin-left: 10px;
+}
+
+/* PADDING */
+.p_top_50{
+    padding-top:50px;
+}
+
+.p_30{
+    padding:30px;
+}
+
+/* TEXT-ALIGN */
+.t_align_c{
+    text-align: center;
+}
+
+/* TEXT DECORATION */
+.t_dec_und{
+    text-decoration: underline;
+}
+
+/* BORDER */
+.b_top_3_blue{
+    border-top:3px solid #3498db;
+}
+
+.b_r_1_silver{
+    border-right: 1px solid #ECF0F1;
+}
