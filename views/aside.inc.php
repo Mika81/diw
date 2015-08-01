@@ -1,11 +1,23 @@
 <aside class="col-xs-6 col-md-4 container-fluid">
     <div class="m_top_50 p_30">
-        <blockquote class="pull-right">
-            <p>C'est en codant qu'on devient coderon !</p>
-            <small>Someone <cite title="Source Title">somewhere</cite></small>
-        </blockquote>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Choisir la source</h3>
+            </div>
+            <div class="panel-body">
+                <form method="post">
+                    <select class="form-control" name="source">
+                        <option <?php if(isset($_POST) && $_POST['source'] == 'Journal du net'){ print 'selected="selected"';} ?>>Journal du net</option>
+                        <option <?php if(isset($_POST) && $_POST['source'] == 'Développez.com'){ print 'selected="selected"';} ?>>Développez.com</option>
+                        <option <?php if(isset($_POST) && $_POST['source'] == 'Internet Actu'){ print 'selected="selected"';} ?>>Internet Actu</option>
+                        <option <?php if(isset($_POST) && $_POST['source'] == 'ZDnet.fr'){ print 'selected="selected"';} ?>>ZDnet.fr</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary btn-block m_top_20">Soumettre</button>
+                </form>
+            </div>
+        </div>
     </div>
-    <div class="m_top_50 p_30">
+    <div class="p_30">
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">A propos</h3>
@@ -19,5 +31,11 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="p_30">
+        <blockquote class="pull-right">
+            <p>C'est en codant qu'on devient coderon !</p>
+            <small>Someone <cite title="Source Title">somewhere</cite></small>
+        </blockquote>
     </div>
 </aside>
