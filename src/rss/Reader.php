@@ -41,14 +41,8 @@ class Reader {
         $items = $this->xml;
         
         foreach($items->channel as $channel){
-            echo $channel->lastBuildDate . " :<br/><br/>";
-            foreach($channel->item as $item){
-                echo "<strong>".$item[0]->category. "</strong><br/>";
-                echo $item->title. "<br/>";
-                echo "<i>".$item->description. "</i><br/>";
-                echo "<br/>";
-            }
+            $source = (string) $channel->link;
         }
+        return $source;
     }
-
 }
