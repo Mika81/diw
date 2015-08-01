@@ -2,13 +2,10 @@
 
 require_once 'src/rss/Item.php';
 require_once 'src/rss/Reader.php';
-
-$filename = "http://web.developpez.com/index/rss";
+require_once 'src/rss/filename.php';
 
 $reader = new \src\rss\Reader($filename);
-
+$source = $reader->reader();
 $items = $reader->getItems();
 
 include_once 'views/home.php';
-
-//print "<pre>"; print_r($items); print"</pre>";
