@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>DIW.fr | News</title>
-        <meta name="description" content="Développement et Intégration Web" />
-        <meta name="author" content="diw.fr">
+        <title>Blog.diw.fr | News</title>
+        <meta name="description" content="Toutes les news web en 1 seul endroit" />
+        <meta name="author" content="DIW.fr">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- CSS -->
@@ -14,7 +14,6 @@
         <!-- JS -->
         <script type='text/javascript' src='/src/css/bootstrap/js/bootstrap.min.js'></script>
         <script type='text/javascript' src='/src/css/bootstrap/js/npm.js'></script>
-        <script type="text/javascript" src="/src/js/analyticstracking.js"></script>
         <!-- FAVICON -->
         <link rel="shortcut icon" href="src/img/favicon.jpg">
     </head>
@@ -22,7 +21,7 @@
         <!-- Starts header -->
         <header>
             <div class="width_100_100 height_400 p_top_50 t_align_c b_top_3_blue">
-                <a href="http://diw.fr">
+                <a href="http://blog.diw.fr">
                     <img src="/src/img/logo.jpg" alt="LOGO DIW.FR"/>
                 </a>
                 <h1>DIW.fr - le blog</h1>
