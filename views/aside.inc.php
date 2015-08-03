@@ -28,6 +28,7 @@
                 </div>
                 <div class="w_40_100 f_l m_l_10">
                     <p><span class='t_dec_und'>L'objectif en bref</span>:<br>Résumer toutes l'actualité web en un seul endroit<br>Bonne lecture.</p>
+                    <p>Pour en savoir + : <a href="http://diw.fr" target="_blank">diw.fr</a> !</p>
                 </div>
             </div>
         </div>
